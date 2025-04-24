@@ -1,0 +1,17 @@
+Package: RDCOMClient
+Version: 0.96-1
+Title: R-DCOM client
+Author: Duncan Temple Lang <duncan@r-project.org>
+Maintainer: Duncan Temple Lang <duncan@r-project.org>
+Contributions: Jo Totland (https://github.com/jototland)
+Description: Provides dynamic client-side access to (D)COM applications from within R.
+License: GPL-2
+LazyLoad: yes
+Imports: methods
+Collate: classes.R COMLists.S COMError.R com.R debug.S zzz.R runTime.S
+URL: https://github.com/omegahat/RDCOMClient
+        http://www.omegahat.net/RDCOMClient, http://www.omegahat.net
+NeedsCompilation: yes
+Packaged: 2022-07-16 18:40:52 UTC; duncan
+Built: R 4.3.3; x86_64-w64-mingw32; 2025-04-16 18:01:31 UTC; windows
+Archs: x64
